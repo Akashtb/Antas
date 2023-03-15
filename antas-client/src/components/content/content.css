@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+
+
+.topContainer{
+    display:flex ;
+    align-items: center;
+    justify-content:center ;
+    position: relative;    
+
+}
+
+
+
+.topContainerBody{
+    width: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background: rgba(214, 220, 215, 0.595);
+}
+
+.imageHeader{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading{
+    
+    margin-top: 15%;
+    font-size: 75px;
+    text-align: center;
+}
+
+.subHeading{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.imageHeaderSecond{
+    width: 50%;
+    margin-right: 20%;
+    object-fit: cover;
+    
+}
+
+.secondContainer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(234, 234, 233);
+    
+}
+
+.imageContainer,.contentContainer{
+    flex: 1;
+}
+
+.imageContainer{
+    width: 95%;
+}
+
+.contentContainer{
+    margin-top: 50px;
+}
+
+.subContent{
+    display: block;
+    width: 70%;
+    font-weight: 600;
+    
+}
+
+
+.thirdContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+.thirdContent{
+    width:65%;
+    font-weight: 400;
+}
+
+.thirdMainHeaderSub{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.thirdContentSub{
+    font-weight: 400;
+}
+.cardgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-container{
+    margin-top: 90px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+
+}
+
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img{
+overflow: hidden;
+height: 200px;
+}
+
+.image-container3 img{
+    overflow: hidden;
+height: 175px;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.SimpleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simpleMainHeading{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.fifthContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: black;
+    height: 250px;
+}
+
+.fifthMainHeading{
+    color: azure;
+    font-size: 80px;
+    font-weight: bolder;
+    
+}
+
+.fifthContent{
+    width: 40%;
+    margin-top: 10px;
+}
+.fifthMainContent{
+    color: aliceblue;
+    
+}
+
+
+.countryGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countryContainer{
+    width: 300px;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+
+
+.countryImageContainer img{
+    overflow: hidden;
+    height: 50px;
+}
+
+.countryContent{
+    margin: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 200px;
+}
+
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+.countryName{
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.countryDetails{
+
+}
+
+
+
+
+
+
+
+
